@@ -115,16 +115,22 @@ At the end, the agent summarizes:
 
 ### Using the Skills CLI
 
-Replace `<owner>/<repo>` with the repository that contains this skill.
+Install this skill directly from GitHub:
 
 ```bash
-npx skills add <owner>/<repo> --skill code-refactoring
+npx skills add MohamedAmjed/fowler-refactoring-skill --skill code-refactoring
 ```
 
-To install all skills from a repository:
+To install all skills from this repository:
 
 ```bash
-npx skills add <owner>/<repo> --all
+npx skills add MohamedAmjed/fowler-refactoring-skill --all
+```
+
+Repository:
+
+```text
+https://github.com/MohamedAmjed/fowler-refactoring-skill
 ```
 
 ### Manual Installation
